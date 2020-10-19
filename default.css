@@ -31,6 +31,15 @@ textarea {
     color: var(--lightText)
 }
 
+a{
+    text-decoration: none;
+    color: #17a2b8
+}
+
+ul{
+    list-style:none;
+}
+
 h1 {font-size: 56px;}
 h2 {font-size: 36px;}
 h3 {font-size: 28px;}
