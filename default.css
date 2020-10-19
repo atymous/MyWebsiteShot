@@ -47,3 +47,9 @@ textarea {
     margin: 0 auto; 
     border: 0;
 }
+
+@media screen and (max-width: 1200px){
+    .main-container{
+        width: 95%;
+    }
+}
