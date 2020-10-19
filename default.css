@@ -33,10 +33,17 @@ textarea {
 
 .s1 {
     background-color: var(--colorincharge);
-    border-bottom: var(--colorbordercontrol);
+    border-bottom: 1px solid var(--colorbordercontrol);
+    overflow:auto 
 }
 
 .s2 {
     background-color: var(--secondarycolor);
-    border-bottom: var(--colorbordercontrol);
+    border-bottom: 1px solid var(--colorbordercontrol);
+}
+
+.main-container{
+    width: 1200px;
+    margin: 0 auto; 
+    border: 0;
 }
