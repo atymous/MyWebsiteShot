@@ -78,24 +78,28 @@ h6 {font-size: 16px;}
 .intro-wrapper{
     background-color: var(--secondaryColor);
     border:1px solid var(--colorBorderControl);
-    -webkit-box-shadow: 0px 9px 12px 4px rgba(NaN,79,72,1);
--moz-box-shadow: 0px 9px 12px 4px rgba(NaN,79,72,1);
-box-shadow: 0px 9px 12px 4px rgba(NaN,79,72,1);
 
-    display:grid;
+    -webkit-box-shadow: 0px 9px 12px 4px rgba(46,74,117,1);
+    -moz-box-shadow: 0px 9px 12px 4px rgba(46,74,117,1);
+    box-shadow: 0px 9px 12px 4px rgba(46,74,117,1);
 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .navi-wrapper{
-    border:1px dashed #4F4846;
+
+border:1px dashed #4F4846;
 }
 
 .left-column{
-    border:1px dashed #4F4846;
+
+border:1px dashed #4F4846;
 }
 
 .right-column{
-    border:1px dashed #4F4846;
+
+border:1px dashed #4F4846;
 }
 
 @media screen and (max-width: 1200px){
