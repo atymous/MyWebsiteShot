@@ -20,7 +20,8 @@ h5,
 h6,
 strong {
     color: var(--boldText);
-    font-family: 'Alegreya', serif;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 500;
 }
 
 p,
@@ -29,7 +30,8 @@ span,
 label,
 input,
 textarea {
-    color: var(--lightText)
+    color: var(--lightText);
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 a{
@@ -65,8 +67,14 @@ h6 {font-size: 16px;}
     border: 0;
 }
 
+.greeting-wrapper{
+    display: grid;
+    border:2px dashed #4F4846;
+    min-height: 20em;
+}
+
 @media screen and (max-width: 1200px){
     .main-container{
-        width: 95%;
+    width: 95%;
     }
 }
