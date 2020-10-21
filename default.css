@@ -156,6 +156,7 @@ h6 {font-size: 16px;}
     display: flex;
     justify-content: center;
 }
+
 .color-theme-dot{
     height: 30px;
     width: 30px;
@@ -172,6 +173,9 @@ h6 {font-size: 16px;}
     cursor: pointer;
 }
 
+.color-theme-dot:hover{
+    border-width: 5px;
+}
 .right-column{
     grid-area: right-column;
 }
