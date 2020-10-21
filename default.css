@@ -1,7 +1,7 @@
 :root {
     --colorInCharge: #eaeaea;
     --secondaryColor: #fff;
-    --colorBorderControl: c1c1c1;
+    --colorBorderControl: #c1c1c1;
     --boldText: olive;
     --lightText: #4b5156;
 }
@@ -70,13 +70,13 @@ h6 {font-size: 16px;}
     display: grid;
     text-align: center;
     align-content:center;
-    border:2px dashed #4F4846;
     min-height: 12em;
 }
 
 .intro-wrapper{
     background-color: var(--secondaryColor);
     border:1px solid var(--colorBorderControl);
+    border-radius: 5px 5px 0 0;
 
     -webkit-box-shadow: 0px 9px 12px 4px rgba(46,74,117,1);
     -moz-box-shadow: 0px 9px 12px 4px rgba(46,74,117,1);
@@ -86,23 +86,22 @@ h6 {font-size: 16px;}
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3em 30em;
     grid-template-areas: 
-        'nav-wrapper nav-wrapper'
+        'navi-wrapper navi-wrapper'
         'left-column right-column';
 }
 
 .navi-wrapper{
-    grid-area: nav-wrapper;
-    border:1px dashed #4F4846;
+    grid-area: navi-wrapper;
+    border-bottom: 1px solid var(--colorBorderControl);
+    display: flex;
 }
 
 .left-column{
     grid-area: left-column;
-    border:1px dashed #4F4846;
 }
 
 .right-column{
     grid-area: right-column;
-    border:1px dashed #4F4846;
 }
 
 @media screen and (max-width: 1200px){
