@@ -84,21 +84,25 @@ h6 {font-size: 16px;}
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3em 30em;
+    grid-template-areas: 
+        'nav-wrapper nav-wrapper'
+        'left-column right-column';
 }
 
 .navi-wrapper{
-
-border:1px dashed #4F4846;
+    grid-area: nav-wrapper;
+    border:1px dashed #4F4846;
 }
 
 .left-column{
-
-border:1px dashed #4F4846;
+    grid-area: left-column;
+    border:1px dashed #4F4846;
 }
 
 .right-column{
-
-border:1px dashed #4F4846;
+    grid-area: right-column;
+    border:1px dashed #4F4846;
 }
 
 @media screen and (max-width: 1200px){
