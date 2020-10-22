@@ -1,11 +1,13 @@
 :root {
-    --colorInCharge: #eaeaea;
+    --colorInCharge: #fdf8f5;
     --secondaryColor: #fff;
     --colorBorderControl: #c1c1c1;
     --boldText: olive;
     --lightText: #4b5156;
 
     --colorThemeDotBorder:#24292e;
+
+    --openerTransparent: rgb(251, 249, 243, 0.8);
 }
 
 html,
@@ -140,6 +142,8 @@ h6 {font-size: 16px;}
 
 .left-column{
     grid-area: left-column;
+    padding-top: 50px;
+    padding-bottom: 50 ox;
 }
 
 #profilePict{
@@ -176,8 +180,36 @@ h6 {font-size: 16px;}
 .color-theme-dot:hover{
     border-width: 5px;
 }
+
+#color1{
+    background-color: #fff;
+}
+
+#color2{
+    background-color: #fff;
+}
+#color3{
+    background-color: #fff;
+}
+#color4{
+    background-color: #ffff
+}
+
+#settings-note{
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
 .right-column{
     grid-area: right-column;
+}
+
+#opener{
+    width: 300px;
+    border: 1.5px solid #ddaf94;
+    background-color: var(--openerTransparent);
+    padding: 15px;
 }
 
 @media screen and (max-width: 1200px){
