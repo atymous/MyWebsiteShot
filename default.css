@@ -203,6 +203,8 @@ h6 {font-size: 16px;}
 
 .right-column{
     grid-area: right-column;
+    display: grid;
+    align-content: center;
 }
 
 #opener{
@@ -210,6 +212,35 @@ h6 {font-size: 16px;}
     border: 1.5px solid #ddaf94;
     background-color: var(--openerTransparent);
     padding: 15px;
+    position: relative;
+}
+
+.corner{
+    width:7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1.5px solid #ddaf94;
+    position: absolute;
+}
+
+#top-left{
+    top: -5px;
+    left: -5px;
+}
+
+#top-right{
+    top: -5px;
+    right: -5px;
+}
+
+#bottom-right{
+    bottom: -5px;
+    right: -5px;
+}
+
+#bottom-left{
+    bottom: -5px;
+    left: -5px;
 }
 
 @media screen and (max-width: 1200px){
