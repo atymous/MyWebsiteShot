@@ -1,6 +1,6 @@
 :root {
     --colorInCharge: #fdf8f5;
-    --secondaryColor: #fff;
+    --secondaryColor: #e8cebf;
     --colorBorderControl: #c1c1c1;
     --boldText: olive;
     --lightText: #4b5156;
@@ -256,5 +256,18 @@ h6 {font-size: 16px;}
 @media screen and (max-width: 1200px){
     .main-container{
     width: 95%;
+    }
+}
+
+/* utilize the grid template for the intro wrapper 
+ I want the right column to go below the left column when
+screen size is reached by altering column order */
+@media screen and (max-width: 800px){
+    .intro-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'navi-wrapper'
+        'left-column'
+        'right-column';
     }
 }
