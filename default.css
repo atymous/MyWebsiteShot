@@ -182,18 +182,18 @@ h6 {font-size: 16px;}
     border-width: 5px;
 }
 
-#color1{
-    background-color: #fff;
+#egg-feel{
+    background-color: #f1b24a;
 }
 
-#color2{
-    background-color: #fff;
+#green-feel{
+    background-color: #4d774e;
 }
-#color3{
-    background-color: #fff;
+#night-feel{
+    background-color: #2d545e;
 }
-#color4{
-    background-color: #fff;
+#alien-feel{
+    background-color: #161748;
 }
 
 #settings-note{
@@ -206,6 +206,10 @@ h6 {font-size: 16px;}
     grid-area: right-column;
     display: grid;
     align-content: center;
+
+    /* include padding when centering and decreasing screen size */
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #opener-shadow{
@@ -269,5 +273,9 @@ screen size is reached by altering column order */
         'navi-wrapper'
         'left-column'
         'right-column';
+    }
+/* .right-column already declared as a grid. */
+    .right-column{
+        justify-content: center;
     }
 }
