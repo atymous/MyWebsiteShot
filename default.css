@@ -257,6 +257,16 @@ h6 {font-size: 16px;}
     left: -5px;
 }
 
+/* first display grid so we can utilize the columns */
+.about-me-wrapper{
+    display: grid;
+    /* repeat(atuto-fit, minmax(320px, 1fr))
+    says, repeat this section here, autofit these sections
+    and repeat once it starts reaching 320px (crushing), then
+    naturally stack these items  */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
 @media screen and (max-width: 1200px){
     .main-container{
     width: 95%;
