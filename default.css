@@ -207,7 +207,8 @@ h6 {font-size: 16px;}
     display: grid;
     align-content: center;
 
-    /* include padding when centering and decreasing screen size */
+    /* include padding when centering and decreasing screen size
+    removes overflow with the intro box */
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -265,6 +266,31 @@ h6 {font-size: 16px;}
     and repeat once it starts reaching 320px (crushing), then
     naturally stack these items  */
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+    /* adjust about-me section */
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    /* create a gap*/
+    gap: 100px;
+}
+/* display skills using flex to help align both skill boxes*/
+#skills{
+    display: flex;
+    /* space-evenly both skill columns*/
+    justify-content: space-evenly;
+    background-color: var(--openerShadow);
+}
+
+/* use grid to align temporary image */
+.personal-links{
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+#temp-vid{
+    width: 100%;
 }
 
 @media screen and (max-width: 1200px){
