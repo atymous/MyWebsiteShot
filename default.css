@@ -9,6 +9,8 @@
 
     --openerTransparent: rgb(251, 249, 243, 0.8);
     --openerShadow: #ddaf94;
+
+    --contactBtnColor:black;
 }
 
 html,
@@ -342,6 +344,14 @@ h6 {font-size: 16px;}
     color: #4b5156;
     font: 16px;
 }
+
+#submit-btn{
+    margin-top: 10px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 @media screen and (max-width: 1200px){
     .main-container{
     width: 95%;
