@@ -326,6 +326,17 @@ h6 {font-size: 16px;}
     padding-top: 15px;
 }
 
+/* I don't want these colors to change when the user chooses their theme color */
+.preview-title{
+    color:black;
+    /* adjust the line height */
+    margin: 0;
+}
+
+.preview-sum{
+    color: #4b5156;
+    font: 16px;
+}
 @media screen and (max-width: 1200px){
     .main-container{
     width: 95%;
