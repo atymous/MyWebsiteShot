@@ -1,0 +1,14 @@
+:root {
+  --creamBackground: #ffefc1;
+  --pinkBackground: #ffc77d;
+  --colorBorder: #d68300;
+  --boldText: olive;
+  --lightText: #4b5156;
+
+  --colorThemeDotBorder:#ffe1bc;
+
+  --openerTransparent: rgb(251, 249, 243, 0.8);
+  --openerShadow: #ffa631;
+
+  --contactBtnColor: #a36c26;
+}
