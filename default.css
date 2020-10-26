@@ -19,6 +19,12 @@ body {
     margin: 0;
 }
 
+/* '*' refers to all the child elements within body 
+--> this way the transition is a lot smoother ! */
+body *{
+    transition: 0.3s;
+}
+
 h1,
 h2,
 h3,
