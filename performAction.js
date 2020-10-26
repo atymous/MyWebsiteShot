@@ -1,5 +1,15 @@
 console.log("working!")
 
+/* want to find local storage and get the value of 'color-theme'*/
+let colorTheme = localStorage.getItem(colorTheme)
+/* first mode will be the pink background */
+if(colorTheme ==null){
+  setThemeColor('kawaii')
+}
+else{
+  setThemeColor(colorTheme)
+}
+
 /* We want to query the items, which are the theme dot buttons */
 let colorThemeDots = document.getElementsByClassName('color-theme-dot')
 
@@ -30,4 +40,6 @@ function setThemeColor(mode){
     document.getElementById('color-theme').href = 'night.css'
   }
 
+  /* Now we have gotten loca storage lets set the value */
+  localStorage.setItem('colorTheme', mode)
 }
