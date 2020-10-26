@@ -20,5 +20,14 @@ function setThemeColor(mode){
   if(mode == "kawaii"){
     document.getElementById('color-theme').href = 'default.css'
   }
+  if(mode == "egg"){
+    document.getElementById('color-theme').href = 'egg.css'
+  }
+  if(mode == "green"){
+    document.getElementById('color-theme').href = 'plant.css'
+  }
+  if(mode == "night"){
+    document.getElementById('color-theme').href = 'night.css'
+  }
 
 }
