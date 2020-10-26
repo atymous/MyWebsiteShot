@@ -1,12 +1,12 @@
 console.log("working!")
 
 /* want to find local storage and get the value of 'color-theme'*/
-let colorTheme = localStorage.getItem(colorTheme)
+let colorTheme = localStorage.getItem('colorTheme')
 /* first mode will be the pink background */
-if(colorTheme ==null){
+if(colorTheme == null){
   setThemeColor('kawaii')
 }
-else{
+else{ 
   setThemeColor(colorTheme)
 }
 
