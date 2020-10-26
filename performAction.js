@@ -11,5 +11,14 @@ for (var i=0; colorThemeDots.length > i; i++){
     --> take 'mode' and console it out */
     let mode = this.dataset.mode
     console.log('Theme Color Selected: ', mode)
+    setThemeColor(mode)
   })
+}
+
+/* implement function that is triggered during each loop */ 
+function setThemeColor(mode){
+  if(mode == "kawaii"){
+    document.getElementById('color-theme').href = 'default.css'
+  }
+
 }
