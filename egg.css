@@ -1,14 +1,14 @@
 :root {
-  --mainBackground: #ffefc1;
-  --secondBackground: #ffc77d;
-  --colorBorder: #d68300;
-  --boldText: olive;
-  --lightText: #4b5156;
+  --mainBackground: #dcc7aa;
+  --secondBackground: #687a8f;
+  --colorBorder: #fff;
+  --boldText: #f7882f;
+  --lightText: white;
 
   --colorThemeDotBorder:#ffe1bc;
 
   --openerTransparent: rgb(251, 249, 243, 0.8);
-  --openerShadow: #ffa631;
+  --openerShadow: #f7c331;
 
-  --contactBtnColor: #a36c26;
+  --contactBtnColor: #fff;
 }

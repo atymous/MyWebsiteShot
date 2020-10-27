@@ -9,8 +9,8 @@
 
     --openerTransparent: rgb(251, 249, 243, 0.8);
     --openerShadow: #ddaf94;
-
-    --contactBtnColor: #266150;
+    --openerShadowBorder: #ddaf94;
+    --contactBtnColor: olive;
 }
 
 html,
@@ -245,7 +245,7 @@ h6 {font-size: 16px;}
 
 #opener{
     width: 300px;
-    border: 1.5px solid #ddaf94;
+    border: 1.5px solid var(--openerShadowBorder);
     background-color: var(--openerTransparent);
     padding: 15px;
     position: relative;
